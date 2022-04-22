@@ -1,0 +1,58 @@
+body{
+    background-color: gray;
+}
+.webpage{
+    margin: 0px 30px 30px 30px;
+    font-size: 15px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+h1, h2{
+    text-align: center;
+}
+@media screen  and (min-width: 720px){
+    .adopt_cat img{
+        width: 50%;
+        height: 160px;
+        float: left;
+        margin: 0px 10px 0px 0px;
+    }
+    .webpage{
+        font-size: 25px;
+        margin: 10px 10px 10px 10px;
+    }
+    .adopt_cat{
+        display: flex;
+        float: right;
+        margin-top: -5%;
+        margin-bottom: 5%;
+    }
+    .the_prawns{
+        margin: 0px 10px 0px 8px;
+    }
+    .upcoming-events{
+        display: flex;
+        float: left;
+        margin-top: -5%;
+        margin-bottom: 5%;
+    }
+    .upcoming-events img{
+        width: 50%;
+        height: 200px;
+        float: right;
+    }
+    .the_corporate-Cat-day{
+        margin: 0px 8px 0px 10px;
+    }
+    #adopt-day{
+        margin: 0px 10px 0px 0px;
+    }
+   .about_us{
+       margin-top: -2%;
+   } 
+   .profile{
+       margin-top: -2%;
+   }
+}
